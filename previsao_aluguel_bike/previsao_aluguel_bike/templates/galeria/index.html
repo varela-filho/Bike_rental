@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão de Aluguéis de Bicicletas</title>
+    <link rel="stylesheet" href="{% static 'bike_rentals/css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2>Veja a previsão de aluguéis de bicicletas em Washington DC:</h2>
+        <form id="form-previsao" class="formulario" method="post">
+            {% csrf_token %}
+            <label for="data">Escolha a data:</label>
+            <input type="date" id="data" name="data" required>
+            <button type="submit">Prever</button>
+        </form>
+        <div id="resultado" class="resultado-previsao"></div>
+    </div>
+
+    <div id="resultado" class="resultado-previsao"></div>
+
+    <script src="{% static 'bike_rentals/js/script.js' %}"></script>
+    
+</body>
+</html>
