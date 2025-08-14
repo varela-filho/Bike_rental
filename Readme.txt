@@ -12,4 +12,5 @@ Atualmente o projeto se encontra em desenvolvimento, porém algumas etapas já f
 * Dessa forma, ao utilizar o terminal na pasta \previsao_aluguel_bike e realizar o comando "python manage.py runserver" é possível verificar que o django inicia o servidor em um endereço como http://127.0.0.1:8000/
 * Com o servidor rodando, ao acessar a url http://127.0.0.1:8000/bike_rentals/ o usuário irá ver uma interface dá uma opção para o usuário escolher uma data entre os próximos 5 dias. Após selecionar a data e clicar em "Prever" será exibido um valor para a quantidade previstas de bicicletas a serem alugadas em Washiton DC, com margem de erro. 
 * Os dados de previsão gerados são baseados no algoritmo de aprendizado de máquina desenvolvido e em dados novos reais obtidos a partir de API referente ao clima de Washinton DC.
-* O próximo passo do projeto é criar uma página de portfólio em que será possível saber mais sobre o dono dos projetos e onde será possível clicar em janelas que redirecionaram o usuário para os projetos criados.
+
+O próximo passo do projeto é criar uma página de portfólio em que será possível saber mais sobre o dono dos projetos e onde será possível clicar em janelas que redirecionaram o usuário para os projetos criados.
